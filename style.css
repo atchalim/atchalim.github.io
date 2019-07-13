@@ -1,0 +1,51 @@
+.background {
+  background-image: url(https://images.unsplash.com/photo-1438986710423-1bf13038bc14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+h2{
+  color: black;
+  font-family: 'Literata', serif;
+  font-size: 42px; 
+}
+.title {
+  font-size: 28px; 
+  font-weight: 300;
+}
+.description {
+  font-size: 20px;
+  font-weight: 400; 
+  margin-bottom: 72px;
+  color: black;
+  font-family: 'Literata', serif;
+}
+.host-image {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.image {
+  height: 240px;  
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url(https://images.unsplash.com/46/3YNGIU4yRTO4DDifrEfA__MG_2885.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+.image-2 {
+  background-image: url('https://tse4.mm.bing.net/th?id=OIP.m9kzHzu4qmC8-RdxqRi1sgHaJQ&pid=Api&P=0&w=300&h=300');
+}
+.image-3 {
+  background-image: url('https://images.unsplash.com/photo-1489323588428-2cb185f5cd5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+}
+.product-list {
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.product-item {
+  flex-grow:1;
+  flex-basis:200px;
+}
